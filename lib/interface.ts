@@ -44,7 +44,7 @@ export interface Collection {
 
 export interface AnimatedButtonProps {
   children: ReactNode;
-  onClick?: (isConnet: boolean) => void;
+  onClick?: (isConnect: boolean) => void;
   type?: "button" | "submit" | "reset";
   disabled?: boolean;
   variant?: "primary" | "secondary" | "outline" | "gradient";
