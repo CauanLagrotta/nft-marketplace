@@ -1,3 +1,4 @@
+import HomePage from "@/mainpages/HomePage";
 import Head from "next/head";
 
 export default function Home() {
@@ -6,6 +7,8 @@ export default function Home() {
       <Head>
         <title>Animated NFT Marketplace</title>
       </Head>
+
+      <HomePage />
     </div>
   );
 }
