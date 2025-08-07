@@ -1,10 +1,7 @@
-import React from "react";
-import { motion } from "framer-motion";
+import MarketPlacePage from "@/mainpages/MarketPlacePage";
 
 const Marketplace = () => {
-  return <div>
-    <motion.div></motion.div>
-  </div>;
+  return <MarketPlacePage />;
 };
 
 export default Marketplace;
