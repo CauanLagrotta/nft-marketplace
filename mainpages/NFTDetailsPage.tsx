@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import { useState } from "react";
-import { FiCheck, FiClock, FiHeart, FiShare2, FiUser } from "react-icons/fi";
+import { FiClock, FiHeart, FiShare2, FiUser } from "react-icons/fi";
 import { socialShare } from "@/lib/data";
 import { BsFillAwardFill } from "react-icons/bs";
 import { FaEthereum } from "react-icons/fa";
